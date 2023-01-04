@@ -23,9 +23,9 @@
     <!-- マーカーの.pattファイルを読み込む -->
     <a-marker type="pattern" url="USA.patt">
       <!-- 3Dモデルを呼び出す -->
-      <a-entity gltf-model="#USA"></a-entity scale="0.6 0.6 0.6" rotation="-90 0 0" animation="property: rotation; to: 0 0 360; loop: true; dur: 7000">
+      <a-entity gltf-model="#USA"></a-entity scale="0.6 0.6 0.6">
     </a-marker>
-
+    <!-- rotation="-90 0 0" animation="property: rotation; to: 0 0 360; loop: true; dur: 7000" -->
     <!-- カメラを追加 -->
     <a-entity camera></a-entity>
   </a-scene>
